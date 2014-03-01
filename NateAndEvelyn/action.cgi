@@ -1,4 +1,5 @@
 #!/bin/bash
 echo "Content-type: text/html"
 echo ""
-echo "testing"
+python test.py
+echo "this is a new line"
