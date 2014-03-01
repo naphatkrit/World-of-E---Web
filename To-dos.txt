@@ -1,0 +1,5 @@
+To-dos:
+-Pick a database platform
+-JSON api
+-web interface for updating
+-already have domain (worldofe.org)
