@@ -1,0 +1,112 @@
+[
+   {
+      "content": [
+         {
+            "url": "http://princetonsei.org", 
+            "details": "PSEI is a family of students, alumni, faculty, and friends who, together, are changing the world for the better.", 
+            "short_name": "PSEI", 
+            "name": "Princeton Social Entrepreneurship Initiative"
+         }, 
+         {
+            "url": "http://princetoneclub.com", 
+            "details": "Our team of 40+ officers organizes events to teach and inspire students to pursue entrepreneurship. Go to our website to sign up for emails about our latest events:", 
+            "short_name": "E-Club", 
+            "name": "Princeton Entrepreneurship Club"
+         }, 
+         {
+            "url": "http://princetonddi.weebly.com/index.html", 
+            "details": "We create and foster Design Partnerships where students partner with local implementation partners to complete series of 1 to 2 year design projects. Have an idea for one?  Please contact us!", 
+            "short_name": "DDI", 
+            "name": "Development Design Initiative"
+         }, 
+         {
+            "url": "http://ewb.princeton.edu/site/", 
+            "details": "EWB-PU is dedicated to engaging the Princeton University community in addressing international development challenges through the design and implementation of sustainable engineering projects, drawing on the long legacy of \"Princeton in the Nation's Service and in the Service of All Nations.\"", 
+            "short_name": "EWB-PU", 
+            "name": "Engineers Without Borders"
+         }, 
+         {
+            "url": "http://www.sustainable-fashion.org", 
+            "details": "Founded at Princeton University in 2011, The Sustainable Fashion Initiative is dedicated to cultivating a culture of sustainability in the fashion industry that is grounded in the conviction of young consumers to live, create, and shop purposefully.", 
+            "short_name": "SFI", 
+            "name": "Sustainable Fasion Initiative"
+         }, 
+         {
+            "url": "http://princetonlfc.weebly.com", 
+            "details": "Leadership for Change envisions a Princeton culture in which leaders are not defined by position or title, but rather by students\u2019 motivation to develop themselves and others as leaders, and by their ability to envision and effect change in their organization, community, and field. ", 
+            "short_name": "LFC", 
+            "name": "Leadership for Change"
+         }, 
+         {
+            "url": "http://princetonacm.com", 
+            "details": "The Princeton ACM is the student chapter of the world\u2019s largest educational and scientific computing society, the Association for Computing Machinery (ACM). The Princeton ACM aims to connect and create a community for Princeton students of all majors interested in computer science. We hold regular events, such as our bi-to-tri-weekly all-night-long Hackathons (\u201cCode@Night\u201d), study breaks, and programming competitions. We also hold a variety of career events, such as a Resume Workshop (sponsored by Facebook) or mock technical interviews.", 
+            "short_name": "ACM", 
+            "name": "Association for Computing Machinery"
+         }, 
+         {
+            "url": "http://princetonwics.wordpress.com", 
+            "details": "Princeton Women in Computer Science (PWiCS) was formed in May of 2010 by two female computer science undergraduates who wanted to find a way to allow the small number of women in the computer science department at Princeton to meet each other and encourage other women to see how much fun it is to be a computer scientist.  The group started out holding course advising study breaks for younger students, and now has grown into hosting many other kinds of events.", 
+            "short_name": "PWiCS", 
+            "name": "Princeton Women in Computer Science"
+         }, 
+         {
+            "url": "http://www.princeton.edu/~swe/index.html", 
+            "details": "Our group is dedicated to promoting a sense of community among female BSE students, professors, and alumnae of Princeton and to introduce younger girls to the various opportunities offered by studying engineering. We hold study breaks and other social events throughout the year for interested students. Our calendar also includes various industry outreach opportunities. At two girl scouts events each year, local girls earn science and technology badges with members of our club. At our High School Colloquiums we help introduce high school students to the various branches of engineering and offer an insight into these fields that they might otherwise not consider studying. ", 
+            "short_name": "SWE", 
+            "name": "Society of Women Engineers"
+         }, 
+         {
+            "url": "http://www.princeton.edu/~iahe/", 
+            "details": "IAHE\u2010PU stands for the student chapter of International Association of Hydrogen Energy (IAHE) at Princeton University. IAHE is a renowned international organisation, with a main objective to promote hydrogen as a sustainable energy carrier for the future. As one of the organisation\u2019s pioneering student chapters in US, IAHE-PU will aim to engage the campus with learning more about hydrogen energy, its potential, its limitations, and the open questions motivating today\u2019s cutting-edge research on alternative energy. Our group aspires to become an active member in the university\u2019s Sustainability Plan, and to bring new technological perspectives to the existing efforts on campus. In addition, our group will also strive to connect PU students, especially those with an interest in energy technology or public policy, to the worldwide opportunities and professional mentorships sponsored by IAHE.", 
+            "short_name": "IAHE-PU", 
+            "name": "International Association of Hydrogen Energy"
+         }
+      ], 
+      "name": "Clubs"
+   }, 
+   {
+      "content": [
+         {
+            "name": "Silicon Valley TigerTrek", 
+            "url": "http://princetoneclub.com/collection/silicon-valley-tigertrek", 
+            "location": "Silicon Valley", 
+            "date": "NULL", 
+            "organizer": "E-Club", 
+            "details": "The annual Silicon Valley TigerTrek is a week-long trip organized by E-Club that a couple dozen students from Princeton University take into Silicon Valley to visit startups, meet with top entrepreneurs and investors, and learn more about startup culture."
+         }, 
+         {
+            "name": "NYC TigerTrek", 
+            "url": "http://princetoneclub.com/collection/off-campus", 
+            "location": "New York City", 
+            "date": "NULL", 
+            "organizer": "E-Club", 
+            "details": "NYC TigerTrek is a day-long visit to the most vibrant startups on the East Coast."
+         }, 
+         {
+            "name": "East Coast Startup Summit", 
+            "url": "http://www.ecstartupsummit.com", 
+            "location": "", 
+            "date": "NULL", 
+            "organizer": "", 
+            "details": "A conference bringing students from dozens of universities across the country around the wave of entrepreneurial expansion that is hitting the east coast."
+         }, 
+         {
+            "name": "Start @ a Startup Conference", 
+            "url": "http://www.businesstoday.org/conferences/start-a-startup-conference/", 
+            "location": "", 
+            "date": "NULL", 
+            "organizer": "Business Today", 
+            "details": "The Start @ a Startup Conference aims to connect East Coast college students with the best startups from around the country, especially those on the West Coast. The first Start @ a Startup conference was hosted in February 2013 on Princeton University\u2019s campus and was a huge success. Students from the top East Coast schools will be coming together again for an interactive weekend of tech talks, workshops, and intimate discussions with venture-backed founders and engineering leaders. Students will attend educational and networking events on Saturday and startups will hold interviews with selected students for full-time positions and/or internships on Sunday. Think of it as an educational crash course on startup technologies and a potential career launchpad!"
+         }, 
+         {
+            "name": "Stanford Entrepreneurial Bootcamp", 
+            "url": "http://bases.stanford.edu/e-bootcamp/", 
+            "location": "Stanford University", 
+            "date": "NULL", 
+            "organizer": "Stanford University", 
+            "details": "E-Bootcamp is an intensive conference designed specifically to target and strip away all of the potential weaknesses of our Bootcampers\u2019 ideas and reforge them, ready for launch. Includes pitching and design workshops, marketing initiatives, media rundowns, sector-specific critiquing, and mentoring sessions with our all-star sponsors and partners. "
+         }
+      ], 
+      "name": "Trips"
+   }
+]
