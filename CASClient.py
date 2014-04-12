@@ -1,8 +1,12 @@
 import sys, os, cgi, urllib, re
+
 form = cgi.FieldStorage()
+
 class CASClient:
-   def __init__(self):
-      self.cas_url = 'https://fed.princeton.edu/cas/'
+
+   def __init__(self, url='https://fed.princeton.edu/cas/'):
+      self.cas_url = url
+
    def Authenticate(self):
       # If the request contains a login ticket, try to validate it
       if form.has_key('ticket'):
@@ -16,14 +20,19 @@ class CASClient:
       print 'Status-line: HTTP/1.1 307 Temporary Redirect'
       print ""
       sys.exit(0)
+
    def Validate(self, ticket):
       val_url = self.cas_url + "validate" + \
          '?service=' + urllib.quote(self.ServiceURL()) + \
          '&ticket=' + urllib.quote(ticket)
+      #val_url = self.cas_url + "serviceValidate" + \
+      #   '?service=' + urllib.quote(self.ServiceURL()) + \
+      #   '&ticket=' + urllib.quote(ticket)  # new
       r = urllib.urlopen(val_url).readlines()   # returns 2 lines
       if len(r) == 2 and re.match("yes", r[0]) != None:
          return r[1].strip()
       return None
+
    def ServiceURL(self):
       if os.environ.has_key('REQUEST_URI'):
          ret = 'http://' + os.environ['HTTP_HOST'] + os.environ['REQUEST_URI']
@@ -33,8 +42,13 @@ class CASClient:
          #$url = preg_replace('/ticket=[^&]*&?/', '', $url);
          #return preg_replace('/?&?$|&$/', '', $url);
       return "something is badly wrong"
- 
+
+# https://fed.princeton.edu/cas/
+#  validate?ticket=ST-3555-McPZ4NKfx6S0EhnCEkHc
+#  &service=https://www.applyweb.com/proto/auth/cas/princeton
+
 def main():
   print "CASClient does not run standalone"
+
 if __name__ == '__main__':
   main()
