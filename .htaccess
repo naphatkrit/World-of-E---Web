@@ -1,7 +1,0 @@
-#pretty url
-
-<IfModule mod_rewrite.c>
-    RewriteEngine on
-    #RewriteBase /
-    rewriterule ^data$ /one.cgi
-</IfModule>
