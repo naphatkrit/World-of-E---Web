@@ -20,10 +20,6 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = 'm71cifkwsz&8fw4^xx*chbquindp9hh54*ygy^0rb7_)243t+i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
-
-TEMPLATE_DEBUG = True
-
 ALLOWED_HOSTS = []
 
 
@@ -53,17 +49,7 @@ ROOT_URLCONF = 'worldofe.urls'
 WSGI_APPLICATION = 'worldofe.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/1.6/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'worldofe_db',
-        'USER': 'worldofe_admin',
-        'PASSWORD': '#Ps12Ei34'
-    }
-}
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
@@ -83,3 +69,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
