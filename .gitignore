@@ -2,3 +2,4 @@ WOE/*
 *.swp
 *.pyc
 staticfiles
+settings/dev.py
