@@ -2,4 +2,4 @@ WOE/*
 *.swp
 *.pyc
 staticfiles
-settings/dev.py
+worldofe/settings/dev.py
