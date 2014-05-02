@@ -1,0 +1,10 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "username": "community_user",
+        "password": "worldofe",
+        "is_staff": true
+    }
+}
+]
