@@ -20,7 +20,7 @@ class Workshop(Eitem):
     time = models.CharField(max_length=40)
 
 class Trip(Eitem):
-    cost = models.DecimalField(decimal_places=2, max_digits=14)
+    cost = models.DecimalField(decimal_places=2)
     location = models.CharField(max_length=100)
     start = models.CharField(max_length=40)
     end = models.CharField(max_length=40)
