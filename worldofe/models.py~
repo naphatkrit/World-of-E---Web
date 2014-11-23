@@ -1,0 +1,50 @@
+from django.db import models
+
+class Action(models.Model):
+    name = models.CharField(max_length=50)
+
+class Eitem(models.Model):
+    action = models.ForeignKey(Action)
+    desc = models.TextField()
+    url = models.URLField()
+    type = models.CharField(max_length=20)
+
+class Courses(Eitem):
+    dept = models.CharField(max_length=20)
+    num = models.IntegerField(default=0)
+    location = models.CharField(max_length=100)
+    professor = models.CharField(max_length=40)
+
+class Workshop(Eitem):
+    location = models.CharField(max_length=100)
+    time = models.CharField(max_length=40)
+
+class Trip(Eitem):
+    cost = models.DecimalField(decimal_places=2)
+    location = models.CharField(max_length=100)
+    start = models.CharField(max_length=40)
+    end = models.CharField(max_length=40)
+
+class Competition(Eitem):
+    rewards = models.CharField(max_length=100)
+    location = models.CharField(max_length=100)
+
+class Employment(Eitem):
+    PAID = 'P'
+    UNPAID = 'UN'
+    BOTH = 'B'
+    PAYMENT = ((PAID, 'Paid'), (UNPAID, 'Unpaid'), (BOTH, 'Both'),)
+    SPRING = 'SP'
+    SUMMER = 'SU'
+    FALL = 'FA'
+    WINTER = 'WI'
+    TIME = ((SPRING, 'Spring'), (SUMMER, 'Summer'), (FALL, 'Fall'), (WINTER, 'Winter'))
+    INTERN = 'IN'
+    FULLTIME = 'FU'
+    POSITION = ((INTERN, 'Intern'), (FULLTIME, 'Full-time'))
+    payment = models.CharField(max_length=2, choices = PAYMENT, default = UNPAID)
+    time = models.CharField(max_length=2, choices = TIME, default = SUMMER)
+    position = models.CharField(max_length=2, choices = POSITION, default = INTERN)
+    location = models.CharField(max_length=100)
+    deadline = models.CharField(max_length=50)
+    
