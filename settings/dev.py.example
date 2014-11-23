@@ -16,7 +16,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'worldofe_db',
         'USER': 'worldofe_admin',
-        'PASSWORD': '#Ps12Ei34'
+        'PASSWORD': ''
     }
 }
 ########## END DATABASE CONFIGURATION
